@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Your Project banner" width="100%">
+<img src="assets/banner.svg" alt="My banner" width="100%">
 
 <img src="assets/typing.svg" alt="Hi, I build cute little things" width="100%">
 
@@ -11,10 +11,13 @@
 </div>
 
 <br>
+<hr>
+<br>
 
-## 🌸 About
+### 🌸 ₊˚⊹♡ About ~read~ ME ₊˚⊹♡ 🌸
 
-**Your Project** is a small, friendly project that does one thing well. Replace this paragraph with a sentence or two about what it does and who it is for.
+I am **Harshita**, but you can call me Harris.
+I am a 
 
 ## ✨ Features
 
@@ -25,16 +28,6 @@
 | 🌈 | **Made to customize** | Change colors, text and layout in one file |
 | 🫧 | **Open source** | Free to use, fork and improve |
 
-## 🚀 Quick start
-
-```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
-npm install
-npm start
-```
-
-Then open `http://localhost:3000` and say hi 👋
 
 ## 🧁 Built with
 
@@ -66,7 +59,7 @@ your-repo/
 
 ## 💌 Contributing
 
-Pull requests are welcome. For big changes, please open an issue first so we can chat about it.
+Pull requests are welcome. For big changes, please open an issue first so we can chat about it. <3
 
 ## 📜 License
 
@@ -76,7 +69,7 @@ Released under the [MIT License](LICENSE).
 
 <br>
 
-**Made with 💖 by [@yourusername](https://github.com/yourusername)**
+**Made with 💖 by [@Harshita](https://github.com/H-arshita-H)**
 
 If you like this project, a ⭐ makes my day!
 
