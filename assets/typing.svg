@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 56" width="800" height="56" role="img" aria-label="Hi, I build cute little things. Shipping tiny features daily. Powered by tea and good vibes.">
+  <defs>
+    <clipPath id="ty-clip1"><rect class="ty-reveal ty-r1" x="60" y="0" width="680" height="56"/></clipPath>
+    <clipPath id="ty-clip2"><rect class="ty-reveal ty-r2" x="60" y="0" width="680" height="56"/></clipPath>
+    <clipPath id="ty-clip3"><rect class="ty-reveal ty-r3" x="60" y="0" width="680" height="56"/></clipPath>
+  </defs>
+  <style>
+    .ty-reveal { transform-box: fill-box; transform-origin: 0 50%; transform: scaleX(0); animation: ty-type 9s steps(30, end) infinite; }
+    .ty-r2 { animation-delay: 3s; }
+    .ty-r3 { animation-delay: 6s; }
+    @keyframes ty-type {
+      0% { transform: scaleX(0); }
+      14% { transform: scaleX(1); }
+      30% { transform: scaleX(1); }
+      33%, 100% { transform: scaleX(0); }
+    }
+    .ty-text { font-family: 'Courier New', Courier, monospace; font-size: 22px; font-weight: 700; fill: #8a63a8; }
+    @media (prefers-reduced-motion: reduce) {
+      .ty-reveal { animation: none; transform: scaleX(1); }
+      .ty-t2, .ty-t3 { display: none; }
+    }
+  </style>
+  <g clip-path="url(#ty-clip1)"><text class="ty-text" x="60" y="35">Hi, I build cute little things</text></g>
+  <g clip-path="url(#ty-clip2)"><text class="ty-text ty-t2" x="60" y="35">Shipping tiny features daily</text></g>
+  <g clip-path="url(#ty-clip3)"><text class="ty-text ty-t3" x="60" y="35">Powered by tea and good vibes</text></g>
+</svg>
