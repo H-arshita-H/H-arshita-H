@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img" aria-label="Your Project banner with a floating cat mascot">
+  <defs>
+    <linearGradient id="kb-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd6e8"/>
+      <stop offset="0.5" stop-color="#e4d4ff"/>
+      <stop offset="1" stop-color="#c9f0e3"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .kb-cloud { fill: #ffffff; opacity: 0.75; animation: kb-drift 7s ease-in-out infinite alternate; }
+    .kb-c2 { animation-duration: 9s; animation-delay: -3s; }
+    .kb-c3 { animation-duration: 8s; animation-delay: -5s; }
+    @keyframes kb-drift { from { transform: translateX(-14px); } to { transform: translateX(18px); } }
+
+    .kb-spark { fill: #ffffff; transform-box: fill-box; transform-origin: center; animation: kb-twinkle 2.4s ease-in-out infinite; }
+    .kb-s2 { animation-delay: -0.8s; }
+    .kb-s3 { animation-delay: -1.6s; }
+    .kb-s4 { animation-delay: -0.4s; }
+    @keyframes kb-twinkle { 0%, 100% { transform: scale(0.3) rotate(0deg); opacity: 0.2; } 50% { transform: scale(1.1) rotate(45deg); opacity: 1; } }
+
+    .kb-bob { animation: kb-bob 1.7s ease-in-out infinite alternate; }
+    @keyframes kb-bob { from { transform: translateY(0); } to { transform: translateY(-10px); } }
+
+    .kb-shadow { fill: #5b3b6e; opacity: 0.15; transform-box: fill-box; transform-origin: center; animation: kb-shadow 1.7s ease-in-out infinite alternate; }
+    @keyframes kb-shadow { from { transform: scaleX(1); } to { transform: scaleX(0.8); opacity: 0.08; } }
+
+    .kb-eyes { transform-box: fill-box; transform-origin: center; animation: kb-blink 4s infinite; }
+    @keyframes kb-blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.1); } }
+
+    .kb-squiggle { stroke-dasharray: 220; stroke-dashoffset: 220; animation: kb-draw 4s ease-in-out infinite; }
+    @keyframes kb-draw { 0% { stroke-dashoffset: 220; } 45%, 80% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -220; } }
+
+    .kb-heart { fill: #ff8fb8; opacity: 0; transform-box: fill-box; transform-origin: center; animation: kb-rise 3.6s ease-in infinite; }
+    .kb-h2 { animation-delay: -1.2s; }
+    .kb-h3 { animation-delay: -2.4s; }
+    @keyframes kb-rise { 0% { transform: translateY(14px) scale(0.5); opacity: 0; } 25% { opacity: 0.95; } 100% { transform: translateY(-36px) scale(1.1); opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .kb-cloud, .kb-spark, .kb-bob, .kb-shadow, .kb-eyes, .kb-heart { animation: none; }
+      .kb-squiggle { animation: none; stroke-dashoffset: 0; }
+      .kb-spark { opacity: 0.9; }
+    }
+  </style>
+
+  <rect width="800" height="240" rx="24" fill="url(#kb-bg)"/>
+
+  <g class="kb-cloud kb-c1"><ellipse cx="150" cy="44" rx="36" ry="13"/><circle cx="132" cy="36" r="14"/><circle cx="166" cy="34" r="17"/></g>
+  <g class="kb-cloud kb-c2"><ellipse cx="470" cy="34" rx="30" ry="11"/><circle cx="456" cy="28" r="12"/><circle cx="484" cy="26" r="14"/></g>
+  <g class="kb-cloud kb-c3"><ellipse cx="560" cy="208" rx="32" ry="11"/><circle cx="544" cy="201" r="12"/><circle cx="574" cy="199" r="15"/></g>
+
+  <g transform="translate(330 70)"><path class="kb-spark" d="M0 -10 Q0 0 10 0 Q0 0 0 10 Q0 0 -10 0 Q0 0 0 -10 Z"/></g>
+  <g transform="translate(520 120)"><path class="kb-spark kb-s2" d="M0 -8 Q0 0 8 0 Q0 0 0 8 Q0 0 -8 0 Q0 0 0 -8 Z"/></g>
+  <g transform="translate(44 196)"><path class="kb-spark kb-s3" d="M0 -9 Q0 0 9 0 Q0 0 0 9 Q0 0 -9 0 Q0 0 0 -9 Z"/></g>
+  <g transform="translate(760 40)"><path class="kb-spark kb-s4" d="M0 -11 Q0 0 11 0 Q0 0 0 11 Q0 0 -11 0 Q0 0 0 -11 Z"/></g>
+
+  <text x="60" y="112" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#5b3b6e">Your Project</text>
+  <text x="62" y="148" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="22" fill="#8a63a8">a tiny, cute README</text>
+  <path class="kb-squiggle" d="M62 172 q15 -12 30 0 t30 0 t30 0 t30 0 t30 0 t30 0" fill="none" stroke="#ff8fb8" stroke-width="5" stroke-linecap="round"/>
+
+  <path class="kb-heart" d="M0 4 C-10 -6 -4 -12 0 -6 C4 -12 10 -6 0 4 Z" transform="translate(600 120) scale(1.4)"/>
+  <path class="kb-heart kb-h2" d="M0 4 C-10 -6 -4 -12 0 -6 C4 -12 10 -6 0 4 Z" transform="translate(760 112) scale(1.2)"/>
+  <path class="kb-heart kb-h3" d="M0 4 C-10 -6 -4 -12 0 -6 C4 -12 10 -6 0 4 Z" transform="translate(690 80) scale(1.6)"/>
+
+  <g transform="translate(680 150)">
+    <ellipse class="kb-shadow" cx="0" cy="66" rx="52" ry="8"/>
+    <g class="kb-bob">
+      <path d="M-48 -32 L-52 -66 L-20 -48 Z" fill="#fff6fb" stroke="#5b3b6e" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M48 -32 L52 -66 L20 -48 Z" fill="#fff6fb" stroke="#5b3b6e" stroke-width="4" stroke-linejoin="round"/>
+      <ellipse cx="0" cy="0" rx="62" ry="54" fill="#fff6fb" stroke="#5b3b6e" stroke-width="4"/>
+      <g class="kb-eyes">
+        <ellipse cx="-22" cy="-4" rx="5" ry="7" fill="#5b3b6e"/>
+        <ellipse cx="22" cy="-4" rx="5" ry="7" fill="#5b3b6e"/>
+      </g>
+      <ellipse cx="-38" cy="12" rx="9" ry="6" fill="#ffb3cf" opacity="0.85"/>
+      <ellipse cx="38" cy="12" rx="9" ry="6" fill="#ffb3cf" opacity="0.85"/>
+      <path d="M-8 10 Q0 19 8 10" fill="none" stroke="#5b3b6e" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
