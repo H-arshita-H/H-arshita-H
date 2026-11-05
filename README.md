@@ -6,7 +6,7 @@
 
 ![made with love](https://img.shields.io/badge/made%20with-love-ff8fb8?style=for-the-badge)
 ![status](https://img.shields.io/badge/status-growing-9be3c4?style=for-the-badge)
-![license](https://img.shields.io/badge/license-MIT-c4b0ff?style=for-the-badge)
+![currently dreaming](https://img.shields.io/badge/currently-dreaming%20big-c4b0ff?style=for-the-badge)
 
 </div>
 
@@ -14,63 +14,96 @@
 <hr>
 <br>
 
-### 🌸 ₊˚⊹♡ About ~read~ ME ₊˚⊹♡ 🌸
+<div align="center">
 
-I am **Harshita**, but you can call me Harris.
-I am a 
+### 🌸 ₊˚⊹♡ About ~READ~Me ♡⊹˚₊ 🌸
 
-## ✨ Features
+</div>
+<br><br>
 
-| | Feature | What it does |
-|---|---|---|
-| 🍡 | **Tiny and quick** | Loads fast and stays out of your way |
-| 🎀 | **Easy to use** | Set up in a minute, no config needed |
-| 🌈 | **Made to customize** | Change colors, text and layout in one file |
-| 🫧 | **Open source** | Free to use, fork and improve |
+Hiii, I’m **Harshita** — but you can call me **Harris**! 🎀
 
+I’m a final-year **IT student**, and I’ve just finished my final exams and practicals. Three years of classes, projects, notes, deadlines, and coffee later, I’m standing at the beginning of a brand-new chapter. 🎓✨
 
-## 🧁 Built with
+I’m curious about all things tech and love discovering cool ideas, clever tools, and little pieces of technology that make me go, *“Wait, that’s so cool!”* I’m also a space-and-planets enthusiast, so you might catch me daydreaming about distant worlds between coding sessions. 🌙🪐
+
+Lately, I’ve been especially curious about **game development**. I’m still at the beginning of the journey and learning from scratch, but I’ve started exploring **Godot** and its lovely little 2D game-making world. There may already be a tiny game idea taking shape in there… 🎮🌱
+
+A big dream of mine is to study abroad and build a life beyond India. I keep a whole Notion page for that dream — filled with plans, universities, study goals, and the tech and coding skills I want to grow along the way. One small step at a time, I’m making that faraway dream feel a little closer. 🌍💌
+
+I’m inspired by *Yoora Jung* and *Gazi* influencers — two very different people whose journeys remind me that there are many lovely ways to learn, grow, and find your own path. ✨
+
+<br><hr><br>
+<div align="center">
+
+### 🎀 ₊˚⊹♡ A Little Snapshot of Me ♡⊹˚₊ 🎀
+
+</div>
+<br><br>
+
+| | A little thing about me |
+|---|---|
+| 🎓 | Final-year IT student from Asia |
+| 💻 | Curious about technology and always ready to explore |
+| 🪐 | Happiest when learning about space and planets |
+| 🎮 | Beginning my game-dev adventure with Godot |
+| 📚 | Growing my coding skills, one step at a time |
+| 🌍 | Dreaming, planning, and working toward studying abroad |
+| 🎀 | Nickname: Harris — adventurous, curious, and still leveling up! |
+
+<br><hr><br>
+<div align="center">
+
+### 🔭 ₊˚⊹♡ Things I’m Exploring ♡⊹˚₊ 🔭
+
+</div>
+<br><br>
 
 ![HTML5](https://img.shields.io/badge/HTML5-ffb3cf?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-c4b0ff?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ffd98e?style=flat-square&logo=javascript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-9be3c4?style=flat-square&logo=nodedotjs&logoColor=white)
+![Godot](https://img.shields.io/badge/Godot-9be3c4?style=flat-square&logo=godotengine&logoColor=white)
 
-## 🗺️ Roadmap
+*My skills are a work in progress, just like me — learning, growing, and collecting new things to try!* 🌼
 
-- [x] Plant the first seed
-- [x] Write the README
-- [ ] Add more features
-- [ ] Share it with the world
+<br><hr><br>
+<div align="center">
+
+### 🗺️ ₊˚⊹♡ My Little Roadmap ♡⊹˚₊ 🗺️
+  
+</div>
+<br><br>
+
+- [x] Finish my final IT course 🎓
+- [x] Make a home for my big dreams 💌
+- [x] Start exploring the world of game development 🎮
+- [ ] Keep learning and building my coding skills 🌱
+- [ ] Make a tiny game I’m proud to share ✨
+- [ ] Take a step closer to my dream university 🌍
 
 <details>
-<summary>🍵 Project structure (click to open)</summary>
+<summary>🍵 A tiny note from future me</summary>
 
-```text
-your-repo/
-├── assets/
-│   ├── banner.svg
-│   └── typing.svg
-├── src/
-└── README.md
-```
+I don’t have every step figured out yet — and that’s okay. I’m learning as I go, staying curious, and letting each little discovery point me toward the next one. Here’s to new beginnings, brave plans, and the lovely things I haven’t built yet. 💗
 
 </details>
 
-## 💌 Contributing
-
-Pull requests are welcome. For big changes, please open an issue first so we can chat about it. <3
-
-## 📜 License
-
-Released under the [MIT License](LICENSE).
-
+<br><hr><br>
 <div align="center">
 
-<br>
+### 💌 ₊˚⊹♡ Say Hello ♡⊹˚₊ 💌
+</div>
+<br><br>
+
+I’m always happy to meet fellow learners, tech explorers, space lovers, and people who enjoy making things just for the joy of it. Let’s learn something new and cheer each other on! <3
+
+<br><br>✨------------------------------------------------------------⋆˚｡⋆୨୧˚ ~ °୨୧⋆｡˚⋆-------------------------------------------------------✨
+<br><br>
+<div align="center">
+
 
 **Made with 💖 by [@Harshita](https://github.com/H-arshita-H)**
 
-If you like this project, a ⭐ makes my day!
+If you like what I’m learning or building, a ⭐ would make my day! maybe a week! Hehe <3
 
 </div>
