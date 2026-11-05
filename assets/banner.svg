@@ -1,79 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img" aria-label="Your Project banner with a floating cat mascot">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img" aria-label="Harris, student and tech enthusiast, in the quest of finding cool tech stuffs. A cute robot sweeps a magnifying glass over floating gadgets.">
   <defs>
-    <linearGradient id="kb-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffd6e8"/>
-      <stop offset="0.5" stop-color="#e4d4ff"/>
-      <stop offset="1" stop-color="#c9f0e3"/>
+    <linearGradient id="hq-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b3aa8"/>
+      <stop offset="0.55" stop-color="#a24bb8"/>
+      <stop offset="1" stop-color="#ee7fb0"/>
     </linearGradient>
+    <radialGradient id="hq-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd1ea" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffd1ea" stop-opacity="0"/>
+    </radialGradient>
   </defs>
   <style>
-    .kb-cloud { fill: #ffffff; opacity: 0.75; animation: kb-drift 7s ease-in-out infinite alternate; }
-    .kb-c2 { animation-duration: 9s; animation-delay: -3s; }
-    .kb-c3 { animation-duration: 8s; animation-delay: -5s; }
-    @keyframes kb-drift { from { transform: translateX(-14px); } to { transform: translateX(18px); } }
+    .hq-spark { fill: #fff; transform-box: fill-box; transform-origin: center; animation: hq-twinkle 2.6s ease-in-out infinite; }
+    .hq-a { animation-delay: -0.7s; } .hq-b { animation-delay: -1.4s; } .hq-c { animation-delay: -2s; }
+    @keyframes hq-twinkle { 0%, 100% { transform: scale(0.3) rotate(0deg); opacity: 0.25; } 50% { transform: scale(1.1) rotate(45deg); opacity: 1; } }
 
-    .kb-spark { fill: #ffffff; transform-box: fill-box; transform-origin: center; animation: kb-twinkle 2.4s ease-in-out infinite; }
-    .kb-s2 { animation-delay: -0.8s; }
-    .kb-s3 { animation-delay: -1.6s; }
-    .kb-s4 { animation-delay: -0.4s; }
-    @keyframes kb-twinkle { 0%, 100% { transform: scale(0.3) rotate(0deg); opacity: 0.2; } 50% { transform: scale(1.1) rotate(45deg); opacity: 1; } }
+    .hq-halo { transform-box: fill-box; transform-origin: center; animation: hq-pulse 4s ease-in-out infinite alternate; }
+    @keyframes hq-pulse { from { transform: scale(0.92); opacity: 0.7; } to { transform: scale(1.08); opacity: 1; } }
 
-    .kb-bob { animation: kb-bob 1.7s ease-in-out infinite alternate; }
-    @keyframes kb-bob { from { transform: translateY(0); } to { transform: translateY(-10px); } }
+    .hq-bot { animation: hq-bob 2s ease-in-out infinite alternate; }
+    @keyframes hq-bob { from { transform: translateY(0); } to { transform: translateY(-9px); } }
 
-    .kb-shadow { fill: #5b3b6e; opacity: 0.15; transform-box: fill-box; transform-origin: center; animation: kb-shadow 1.7s ease-in-out infinite alternate; }
-    @keyframes kb-shadow { from { transform: scaleX(1); } to { transform: scaleX(0.8); opacity: 0.08; } }
+    .hq-eyes { transform-box: fill-box; transform-origin: center; animation: hq-blink 4.5s infinite; }
+    @keyframes hq-blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.1); } }
 
-    .kb-eyes { transform-box: fill-box; transform-origin: center; animation: kb-blink 4s infinite; }
-    @keyframes kb-blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.1); } }
+    .hq-led { transform-box: fill-box; transform-origin: center; animation: hq-led 1.2s ease-in-out infinite; }
+    @keyframes hq-led { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.35; transform: scale(0.7); } }
 
-    .kb-squiggle { stroke-dasharray: 220; stroke-dashoffset: 220; animation: kb-draw 4s ease-in-out infinite; }
-    @keyframes kb-draw { 0% { stroke-dashoffset: 220; } 45%, 80% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -220; } }
+    .hq-flame { transform-box: fill-box; transform-origin: 50% 0%; animation: hq-flame 0.35s ease-in-out infinite alternate; }
+    @keyframes hq-flame { from { transform: scaleY(0.7); } to { transform: scaleY(1.25); } }
 
-    .kb-heart { fill: #ff8fb8; opacity: 0; transform-box: fill-box; transform-origin: center; animation: kb-rise 3.6s ease-in infinite; }
-    .kb-h2 { animation-delay: -1.2s; }
-    .kb-h3 { animation-delay: -2.4s; }
-    @keyframes kb-rise { 0% { transform: translateY(14px) scale(0.5); opacity: 0; } 25% { opacity: 0.95; } 100% { transform: translateY(-36px) scale(1.1); opacity: 0; } }
+    .hq-sweep { transform-origin: 678px 172px; animation: hq-sweep 3.2s ease-in-out infinite alternate; }
+    @keyframes hq-sweep { from { transform: rotate(-12deg); } to { transform: rotate(10deg); } }
+
+    .hq-float { animation: hq-float 3s ease-in-out infinite alternate; }
+    .hq-f2 { animation-duration: 3.8s; animation-delay: -1s; } .hq-f3 { animation-duration: 3.4s; animation-delay: -2s; } .hq-f4 { animation-duration: 4.2s; animation-delay: -0.5s; }
+    @keyframes hq-float { from { transform: translateY(0); } to { transform: translateY(-12px); } }
+
+    .hq-gear { transform-box: fill-box; transform-origin: center; animation: hq-spin 8s linear infinite; }
+    @keyframes hq-spin { to { transform: rotate(360deg); } }
+
+    .hq-wifi { opacity: 0.2; animation: hq-wifi 2s ease-in-out infinite; }
+    .hq-w2 { animation-delay: 0.3s; } .hq-w3 { animation-delay: 0.6s; }
+    @keyframes hq-wifi { 0%, 100% { opacity: 0.2; } 40% { opacity: 1; } }
+
+    .hq-trace { stroke-dasharray: 12 48; animation: hq-run 2.4s linear infinite; }
+    @keyframes hq-run { to { stroke-dashoffset: -60; } }
 
     @media (prefers-reduced-motion: reduce) {
-      .kb-cloud, .kb-spark, .kb-bob, .kb-shadow, .kb-eyes, .kb-heart { animation: none; }
-      .kb-squiggle { animation: none; stroke-dashoffset: 0; }
-      .kb-spark { opacity: 0.9; }
+      .hq-spark, .hq-halo, .hq-bot, .hq-eyes, .hq-led, .hq-flame, .hq-sweep, .hq-float, .hq-gear, .hq-wifi { animation: none; }
+      .hq-spark, .hq-wifi { opacity: 0.9; }
+      .hq-trace { animation: none; }
     }
   </style>
 
-  <rect width="800" height="240" rx="24" fill="url(#kb-bg)"/>
+  <rect width="800" height="240" rx="24" fill="url(#hq-bg)"/>
 
-  <g class="kb-cloud kb-c1"><ellipse cx="150" cy="44" rx="36" ry="13"/><circle cx="132" cy="36" r="14"/><circle cx="166" cy="34" r="17"/></g>
-  <g class="kb-cloud kb-c2"><ellipse cx="470" cy="34" rx="30" ry="11"/><circle cx="456" cy="28" r="12"/><circle cx="484" cy="26" r="14"/></g>
-  <g class="kb-cloud kb-c3"><ellipse cx="560" cy="208" rx="32" ry="11"/><circle cx="544" cy="201" r="12"/><circle cx="574" cy="199" r="15"/></g>
+  <path class="hq-spark" d="M0 -8 Q0 0 8 0 Q0 0 0 8 Q0 0 -8 0 Q0 0 0 -8 Z" transform="translate(380 36)"/>
+  <path class="hq-spark hq-a" d="M0 -6 Q0 0 6 0 Q0 0 0 6 Q0 0 -6 0 Q0 0 0 -6 Z" transform="translate(560 28)"/>
+  <path class="hq-spark hq-b" d="M0 -9 Q0 0 9 0 Q0 0 0 9 Q0 0 -9 0 Q0 0 0 -9 Z" transform="translate(470 216)"/>
+  <path class="hq-spark hq-c" d="M0 -6 Q0 0 6 0 Q0 0 0 6 Q0 0 -6 0 Q0 0 0 -6 Z" transform="translate(776 150)"/>
+  <path class="hq-spark hq-a" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7 Z" transform="translate(40 40)"/>
 
-  <g transform="translate(330 70)"><path class="kb-spark" d="M0 -10 Q0 0 10 0 Q0 0 0 10 Q0 0 -10 0 Q0 0 0 -10 Z"/></g>
-  <g transform="translate(520 120)"><path class="kb-spark kb-s2" d="M0 -8 Q0 0 8 0 Q0 0 0 8 Q0 0 -8 0 Q0 0 0 -8 Z"/></g>
-  <g transform="translate(44 196)"><path class="kb-spark kb-s3" d="M0 -9 Q0 0 9 0 Q0 0 0 9 Q0 0 -9 0 Q0 0 0 -9 Z"/></g>
-  <g transform="translate(760 40)"><path class="kb-spark kb-s4" d="M0 -11 Q0 0 11 0 Q0 0 0 11 Q0 0 -11 0 Q0 0 0 -11 Z"/></g>
+  <!-- Harris -->
+  <path d="M64.8 102.9V52.2H74.7V72.3H78.5V65.6H88.5V72.3H92.3V52.2H102.3V102.9H92.3V82.8H74.7V102.9ZM118.7 102.9V96.2H111.8V72.3H118.7V65.6H142.4V72.3H149.3V92.2H156.3V102.9H146.3V96.2H142.4V102.9ZM121.7 92.2H139.3V76.2H121.7ZM165.8 102.9V72.3H172.6V65.6H196.3V72.3H203.3V82.8H193.3V76.2H175.7V102.9ZM212.8 102.9V72.3H219.7V65.6H243.4V72.3H250.3V82.8H240.3V76.2H222.7V102.9ZM259.8 102.9V65.6H269.7V102.9ZM259.8 62.9V52.2H269.7V62.9ZM279.3 102.9V92.2H306.8V89.5H286.1V82.8H279.3V72.3H286.1V65.6H316.8V76.2H289.2V78.8H309.8V85.5H316.8V96.2H309.8V102.9Z" fill="#ffffff"/>
+  <!-- Student - Tech enthusiast -->
+  <path d="M66.2 140.3V137.9H63.7V134.4H67V136.8H73.7V133H66.2V130.6H63.7V124.7H66.2V122.2H74.5V124.7H77V128.1H73.7V125.7H67V129.5H74.5V131.9H77V137.9H74.5V140.3ZM85.4 140.3V137.9H82.9V130.6H80.4V127.1H82.9V122.2H86.2V127.1H93.7V130.6H86.2V136.8H92.9V134.4H96.2V137.9H93.7V140.3ZM102.2 140.3V137.9H99.7V127.1H103V136.8H109.6V127.1H113V137.9H110.4V140.3ZM118.9 140.3V137.9H116.4V129.5H118.9V127.1H126.4V122.2H129.7V137.9H127.2V140.3ZM119.7 136.8H126.3V130.6H119.7ZM135.6 140.3V137.9H133.1V129.5H135.6V127.1H143.9V129.5H146.4V133H143.1V130.6H136.4V131.9H141.4V135.4H136.4V136.8H143.1V134.4H146.4V137.9H143.9V140.3ZM149.8 140.3V127.1H160.6V129.5H163.1V140.3H159.8V130.6H153.1V140.3ZM171.5 140.3V137.9H169V130.6H166.5V127.1H169V122.2H172.3V127.1H179.8V130.6H172.3V136.8H179V134.4H182.3V137.9H179.8V140.3ZM191.4 132.8V129.3H194.7V132.8ZM208.6 140.3V125.7H207V128.1H203.7V124.7H206.2V122.2H214.5V124.7H217V128.1H213.6V125.7H212V140.3ZM222.9 140.3V137.9H220.4V129.5H222.9V127.1H231.2V129.5H233.7V133H230.4V130.6H223.7V131.9H228.7V135.4H223.7V136.8H230.4V134.4H233.7V137.9H231.2V140.3ZM239.6 140.3V137.9H237.1V129.5H239.6V127.1H247.9V129.5H250.4V133H247.1V130.6H240.4V136.8H247.1V134.4H250.4V137.9H247.9V140.3ZM253.8 140.3V122.2H257.1V129.5H258.8V127.1H264.6V129.5H267.1V140.3H263.8V130.6H259.6V133H257.1V140.3ZM278.6 140.3V137.9H276.1V129.5H278.6V127.1H286.9V129.5H289.4V133H286.1V130.6H279.4V131.9H284.5V135.4H279.4V136.8H286.1V134.4H289.4V137.9H286.9V140.3ZM292.9 140.3V127.1H303.6V129.5H306.2V140.3H302.8V130.6H296.2V140.3ZM314.5 140.3V137.9H312.1V130.6H309.6V127.1H312.1V122.2H315.4V127.1H322.9V130.6H315.4V136.8H322.1V134.4H325.4V137.9H322.9V140.3ZM328.8 140.3V122.2H332.1V129.5H333.8V127.1H339.6V129.5H342.1V140.3H338.8V130.6H334.6V133H332.1V140.3ZM348 140.3V137.9H345.5V127.1H348.8V136.8H355.5V127.1H358.8V137.9H356.3V140.3ZM362.2 140.3V136.8H372.2V135.4H364.7V133H362.2V129.5H364.7V127.1H375.5V130.6H365.5V131.9H373V134.4H375.5V137.9H373V140.3ZM379 140.3V127.1H382.3V140.3ZM379 125.7V122.2H382.3V125.7ZM388.2 140.3V137.9H385.7V129.5H388.2V127.1H396.5V129.5H399V136.8H401.5V140.3H398.2V137.9H396.5V140.3ZM389 136.8H395.6V130.6H389ZM404.9 140.3V136.8H414.9V135.4H407.4V133H404.9V129.5H407.4V127.1H418.2V130.6H408.2V131.9H415.7V134.4H418.2V137.9H415.7V140.3ZM426.6 140.3V137.9H424.1V130.6H421.6V127.1H424.1V122.2H427.4V127.1H434.9V130.6H427.4V136.8H434.1V134.4H437.5V137.9H434.9V140.3Z" fill="#ffe3f3"/>
+  <!-- quest line -->
+  <path d="M63.2 168.8V167.5H64.5V166.2H65.8V165H67V163.8H65.8V162.5H64.5V161.2H63.2V160H65.8V161.2H67V162.5H68.2V163.8H69.5V165H68.2V166.2H67V167.5H65.8V168.8ZM85.8 161.2V160H88.2V161.2ZM83.2 168.8V167.5H85.8V163.8H84.5V162.5H88.2V167.5H90.8V168.8ZM92 168.8V162.5H99.5V163.8H100.8V168.8H98.2V163.8H94.5V168.8ZM115.8 168.8V163.8H113.2V162.5H115.8V160H118.2V162.5H120.8V163.8H118.2V168.8ZM122 168.8V160H124.5V162.5H129.5V163.8H130.8V168.8H128.2V163.8H124.5V168.8ZM133.2 168.8V167.5H132V163.8H133.2V162.5H139.5V163.8H140.8V166.2H134.5V167.5H139.5V168.8ZM134.5 165H138.2V163.8H134.5ZM158.2 170V167.5H153.2V166.2H152V163.8H153.2V162.5H160.8V170ZM154.5 166.2H158.2V163.8H154.5ZM163.2 168.8V167.5H162V162.5H164.5V167.5H168.2V162.5H170.8V168.8ZM173.2 168.8V167.5H172V163.8H173.2V162.5H179.5V163.8H180.8V166.2H174.5V167.5H179.5V168.8ZM174.5 165H178.2V163.8H174.5ZM182 168.8V167.5H188.2V166.2H183.2V165H182V163.8H183.2V162.5H189.5V163.8H184.5V165H189.5V166.2H190.8V167.5H189.5V168.8ZM195.8 168.8V163.8H193.2V162.5H195.8V160H198.2V162.5H200.8V163.8H198.2V168.8ZM213.2 168.8V167.5H212V163.8H213.2V162.5H219.5V163.8H220.8V167.5H219.5V168.8ZM214.5 167.5H218.2V163.8H214.5ZM225.8 168.8V163.8H223.2V162.5H225.8V161.2H227V160H230.8V161.2H228.2V162.5H230.8V163.8H228.2V168.8ZM245.8 168.8V163.8H243.2V162.5H245.8V161.2H247V160H250.8V161.2H248.2V162.5H250.8V163.8H248.2V168.8ZM255.8 161.2V160H258.2V161.2ZM253.2 168.8V167.5H255.8V163.8H254.5V162.5H258.2V167.5H260.8V168.8ZM262 168.8V162.5H269.5V163.8H270.8V168.8H268.2V163.8H264.5V168.8ZM273.2 168.8V167.5H272V163.8H273.2V162.5H278.2V160H280.8V168.8ZM274.5 167.5H278.2V163.8H274.5ZM285.8 161.2V160H288.2V161.2ZM283.2 168.8V167.5H285.8V163.8H284.5V162.5H288.2V167.5H290.8V168.8ZM292 168.8V162.5H299.5V163.8H300.8V168.8H298.2V163.8H294.5V168.8ZM303.2 170V168.8H308.2V167.5H303.2V166.2H302V163.8H303.2V162.5H310.8V168.8H309.5V170ZM304.5 166.2H308.2V163.8H304.5ZM323.2 168.8V167.5H322V163.8H323.2V162.5H330.8V163.8H324.5V167.5H330.8V168.8ZM333.2 168.8V167.5H332V163.8H333.2V162.5H339.5V163.8H340.8V167.5H339.5V168.8ZM334.5 167.5H338.2V163.8H334.5ZM343.2 168.8V167.5H342V163.8H343.2V162.5H349.5V163.8H350.8V167.5H349.5V168.8ZM344.5 167.5H348.2V163.8H344.5ZM353.2 168.8V167.5H355.8V161.2H354.5V160H358.2V167.5H360.8V168.8ZM375.8 168.8V163.8H373.2V162.5H375.8V160H378.2V162.5H380.8V163.8H378.2V168.8ZM383.2 168.8V167.5H382V163.8H383.2V162.5H389.5V163.8H390.8V166.2H384.5V167.5H389.5V168.8ZM384.5 165H388.2V163.8H384.5ZM393.2 168.8V167.5H392V163.8H393.2V162.5H400.8V163.8H394.5V167.5H400.8V168.8ZM402 168.8V160H404.5V162.5H409.5V163.8H410.8V168.8H408.2V163.8H404.5V168.8ZM422 168.8V167.5H428.2V166.2H423.2V165H422V163.8H423.2V162.5H429.5V163.8H424.5V165H429.5V166.2H430.8V167.5H429.5V168.8ZM435.8 168.8V163.8H433.2V162.5H435.8V160H438.2V162.5H440.8V163.8H438.2V168.8ZM443.2 168.8V167.5H442V162.5H444.5V167.5H448.2V162.5H450.8V168.8ZM455.8 168.8V163.8H453.2V162.5H455.8V161.2H457V160H460.8V161.2H458.2V162.5H460.8V163.8H458.2V168.8ZM465.8 168.8V163.8H463.2V162.5H465.8V161.2H467V160H470.8V161.2H468.2V162.5H470.8V163.8H468.2V168.8ZM472 168.8V167.5H478.2V166.2H473.2V165H472V163.8H473.2V162.5H479.5V163.8H474.5V165H479.5V166.2H480.8V167.5H479.5V168.8Z" fill="#f3dcff"/>
 
-  <text x="60" y="112" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="54" font-weight="800" fill="#5b3b6e">Your Project</text>
-  <text x="62" y="148" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="22" fill="#8a63a8">a tiny, cute README</text>
-  <path class="kb-squiggle" d="M62 172 q15 -12 30 0 t30 0 t30 0 t30 0 t30 0 t30 0" fill="none" stroke="#ff8fb8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M62 206 H170 L188 192 H300 L316 206 H420" fill="none" stroke="#ffd1ea" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="hq-trace" d="M62 206 H170 L188 192 H300 L316 206 H420" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="62" cy="206" r="5" fill="#ffd1ea"/><circle cx="188" cy="192" r="4" fill="#ffd1ea"/><circle cx="316" cy="206" r="4" fill="#ffd1ea"/><circle cx="420" cy="206" r="5" fill="#ffd1ea"/>
 
-  <path class="kb-heart" d="M0 4 C-10 -6 -4 -12 0 -6 C4 -12 10 -6 0 4 Z" transform="translate(600 120) scale(1.4)"/>
-  <path class="kb-heart kb-h2" d="M0 4 C-10 -6 -4 -12 0 -6 C4 -12 10 -6 0 4 Z" transform="translate(760 112) scale(1.2)"/>
-  <path class="kb-heart kb-h3" d="M0 4 C-10 -6 -4 -12 0 -6 C4 -12 10 -6 0 4 Z" transform="translate(690 80) scale(1.6)"/>
+  <g class="hq-float hq-f2"><g transform="translate(505 52)">
+    <g class="hq-gear"><circle r="11" fill="#ffd1ea"/><circle r="15" fill="none" stroke="#ffd1ea" stroke-width="6" stroke-dasharray="6 5.78"/><circle r="5" fill="#a24bb8"/></g>
+  </g></g>
+  <g class="hq-float hq-f3"><g transform="translate(528 172)">
+    <g stroke="#ffd1ea" stroke-width="3" stroke-linecap="round"><line x1="-8" y1="-18" x2="-8" y2="-13"/><line x1="8" y1="-18" x2="8" y2="-13"/><line x1="-8" y1="13" x2="-8" y2="18"/><line x1="8" y1="13" x2="8" y2="18"/><line x1="-18" y1="-8" x2="-13" y2="-8"/><line x1="-18" y1="8" x2="-13" y2="8"/><line x1="13" y1="-8" x2="18" y2="-8"/><line x1="13" y1="8" x2="18" y2="8"/></g>
+    <rect x="-13" y="-13" width="26" height="26" rx="6" fill="#f3e8ff"/><rect x="-6" y="-6" width="12" height="12" rx="3" fill="#a24bb8"/>
+  </g></g>
+  <g class="hq-float hq-f4"><text x="470" y="112" font-family="'Courier New',Courier,monospace" font-size="26" font-weight="700" fill="#ffd1ea">&lt;/&gt;</text></g>
+  <g class="hq-float"><text x="532" y="118" font-family="'Courier New',Courier,monospace" font-size="22" font-weight="700" fill="#ffffff" fill-opacity="0.85">{ }</text></g>
 
-  <g transform="translate(680 150)">
-    <ellipse class="kb-shadow" cx="0" cy="66" rx="52" ry="8"/>
-    <g class="kb-bob">
-      <path d="M-48 -32 L-52 -66 L-20 -48 Z" fill="#fff6fb" stroke="#5b3b6e" stroke-width="4" stroke-linejoin="round"/>
-      <path d="M48 -32 L52 -66 L20 -48 Z" fill="#fff6fb" stroke="#5b3b6e" stroke-width="4" stroke-linejoin="round"/>
-      <ellipse cx="0" cy="0" rx="62" ry="54" fill="#fff6fb" stroke="#5b3b6e" stroke-width="4"/>
-      <g class="kb-eyes">
-        <ellipse cx="-22" cy="-4" rx="5" ry="7" fill="#5b3b6e"/>
-        <ellipse cx="22" cy="-4" rx="5" ry="7" fill="#5b3b6e"/>
-      </g>
-      <ellipse cx="-38" cy="12" rx="9" ry="6" fill="#ffb3cf" opacity="0.85"/>
-      <ellipse cx="38" cy="12" rx="9" ry="6" fill="#ffb3cf" opacity="0.85"/>
-      <path d="M-8 10 Q0 19 8 10" fill="none" stroke="#5b3b6e" stroke-width="3.5" stroke-linecap="round"/>
+  <g fill="none" stroke="#ffe3f3" stroke-width="4" stroke-linecap="round" transform="translate(764 56)">
+    <path class="hq-wifi hq-w3" d="M-18 -4 Q0 -22 18 -4"/>
+    <path class="hq-wifi hq-w2" d="M-11 3 Q0 -9 11 3"/>
+    <path class="hq-wifi" d="M-4 10 Q0 5 4 10"/>
+  </g>
+
+  <circle class="hq-halo" cx="650" cy="130" r="100" fill="url(#hq-glow)"/>
+
+  <g class="hq-bot">
+    <ellipse class="hq-flame" cx="650" cy="206" rx="9" ry="12" fill="#ffd98e"/>
+    <ellipse class="hq-flame" cx="650" cy="204" rx="5" ry="8" fill="#fff6d6"/>
+
+    <line x1="650" y1="70" x2="650" y2="52" stroke="#f3e8ff" stroke-width="4" stroke-linecap="round"/>
+    <circle class="hq-led" cx="650" cy="46" r="7" fill="#ff8fb8"/>
+
+    <line x1="622" y1="174" x2="604" y2="188" stroke="#f3e8ff" stroke-width="9" stroke-linecap="round"/>
+    <rect x="622" y="158" width="56" height="42" rx="16" fill="#f3e8ff"/>
+    <path d="M650 188 C641 181 644 174 650 179 C656 174 659 181 650 188 Z" fill="#ff8fb8"/>
+
+    <circle cx="592" cy="112" r="8" fill="#ffb3dd"/><circle cx="708" cy="112" r="8" fill="#ffb3dd"/>
+    <rect x="595" y="70" width="110" height="86" rx="28" fill="#f3e8ff"/>
+    <rect x="607" y="83" width="86" height="56" rx="20" fill="#3a1d66"/>
+    <g class="hq-eyes"><ellipse cx="632" cy="107" rx="6" ry="8.5" fill="#ff9ccf"/><ellipse cx="668" cy="107" rx="6" ry="8.5" fill="#ff9ccf"/></g>
+    <ellipse cx="619" cy="124" rx="7" ry="4.5" fill="#ff8fb8" opacity="0.8"/><ellipse cx="681" cy="124" rx="7" ry="4.5" fill="#ff8fb8" opacity="0.8"/>
+    <path d="M643 123 Q650 131 657 123" fill="none" stroke="#ff9ccf" stroke-width="3.5" stroke-linecap="round"/>
+
+    <g class="hq-sweep">
+      <line x1="678" y1="172" x2="706" y2="168" stroke="#f3e8ff" stroke-width="9" stroke-linecap="round"/>
+      <line x1="706" y1="167" x2="720" y2="153" stroke="#ffb3dd" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="737" cy="135" r="24" fill="#ffffff" fill-opacity="0.22" stroke="#ffffff" stroke-width="5"/>
+      <path d="M723 128 Q727 118 737 115" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" opacity="0.9"/>
     </g>
   </g>
 </svg>
