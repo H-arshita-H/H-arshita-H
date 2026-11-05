@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="My banner" width="100%">
+<img src="assets/banner-quest.svg" alt="My banner" width="100%">
 
 <img src="assets/typing.svg" alt="Hi, I build cute little things" width="100%">
 
