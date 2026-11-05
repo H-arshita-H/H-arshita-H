@@ -82,7 +82,7 @@ I’m inspired by *Yoora Jung* and *Gazi* influencers — two very different peo
 - [ ] Take a step closer to my dream university 🌍
 
 <details>
-<summary>🍵 A tiny note from future me</summary>
+<summary>🍵 A tiny note for  future Me</summary>
 
 I don’t have every step figured out yet — and that’s okay. I’m learning as I go, staying curious, and letting each little discovery point me toward the next one. Here’s to new beginnings, brave plans, and the lovely things I haven’t built yet. 💗
 
@@ -97,13 +97,16 @@ I don’t have every step figured out yet — and that’s okay. I’m learning 
 
 I’m always happy to meet fellow learners, tech explorers, space lovers, and people who enjoy making things just for the joy of it. Let’s learn something new and cheer each other on! <3
 
-<br><br>✨------------------------------------------------------------⋆˚｡⋆୨୧˚ ~ °୨୧⋆｡˚⋆-------------------------------------------------------✨
+<br><br>
+<div align="center">
+--------------------✨⋆˚｡⋆୨୧˚ ~ °୨୧⋆｡˚⋆✨--------------------
+</div>
 <br><br>
 <div align="center">
 
 
 **Made with 💖 by [@Harshita](https://github.com/H-arshita-H)**
 
-If you like what I’m learning or building, a ⭐ would make my day! maybe a week! Hehe <3
+*If you like what I’m learning or building, a ⭐ would make my day! maybe a week! Hehe <3*
 
 </div>
